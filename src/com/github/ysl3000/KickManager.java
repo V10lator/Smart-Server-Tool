@@ -48,6 +48,7 @@ public class KickManager {
 				} else {
 
 					Bukkit.getPlayer(args[0]).kickPlayer(args[1]);
+					Bukkit.broadcastMessage(args[0] + " is kicked because "+ args[1]);
 				}
 			}
 
